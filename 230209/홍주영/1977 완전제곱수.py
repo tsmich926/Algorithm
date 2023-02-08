@@ -10,9 +10,9 @@ sys.stdin = open('input.txt', 'r')
 
 M = int(input())
 N = int(input())
-sumI = 0
-minI = N
-for i in range(M, N+1):
+sumI = 0          # 선언 및 초기화
+minI = N          # minI가 가질 수 있는 최대값 N
+for i in range(M, N+1):        # M< i <=N 범위에 있는 i
     if int(i**(0.5))**2 == i:
         sumI += i
         if i < minI:
