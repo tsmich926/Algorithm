@@ -11,3 +11,4 @@ while lst:
     ans.append(t)
 list_ans = str(ans)[1:-1]
 print(f'<{list_ans}>')
+
