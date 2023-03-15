@@ -10,7 +10,7 @@ N명의 학생
 import sys
 sys.stdin = open('input.txt', 'r')
 
-# 방법1. 람다와 열거 사용
+방법1. 람다와 열거 사용
 # vote = [[i] + [0]*3 for i in range(1, 4)]           # vote 에 첫 번째 index 에 후보 번호를 지정 해주고 0으로된 리스트 3개 생성
 # N = int(input())
 # for _ in range(N):                                  # 입력의 길이 만큼 돌면서

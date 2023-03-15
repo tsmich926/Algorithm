@@ -1,6 +1,11 @@
 '''
 push : +
 pop : -
+12345678
+8
+ST = [1257
+list = 43687521
+++++--++-++-----
 '''
 
 import sys
@@ -10,12 +15,11 @@ sys.stdin = open('input.txt', 'r')
 lis = []
 ST = []
 n = int(input())
-nums = []
+
 res = []
 ans = []
 for i in range(n):
     num = int(input())
-    nums.append(i+1)
     lis.append(num)
 
 i = 1
