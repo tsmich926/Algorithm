@@ -3,7 +3,6 @@ def check(v):
         for n in range(M):
             t = bingo[m][n]
             if t == v:
-                # visited[][j] == 1
 
                 # 2. 좌표를 벙문표시한다.
                 visited[m][n] = 1
