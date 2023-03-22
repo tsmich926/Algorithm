@@ -19,6 +19,7 @@ for i in ans:                # 가로 혹은 세로중에 가장 긴 변 a
         if maxV < i[1]:
             a = i
 
+
 tmp = ans[::]                # 리스트와 똑같은 임시리스트를 만들어서 가장 긴 변 a를 제거
 for i in tmp:
     if i == a:
@@ -29,6 +30,7 @@ for i in tmp:
     if count[i[0]] == 1:
         if maxV2 < i[1]:
             b = i
+
 
 ans.insert(0, ans[5])         # out of index를 피하기 위해 리스트의 맨 앞에 리스트의 맨뒤에 있던 튜플을 더하고
 ans.insert(7, ans[1])         # 리스트의 맨 뒤에 리스트의 맨 앞에 있던 튜플을 더함
